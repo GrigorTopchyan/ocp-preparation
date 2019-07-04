@@ -32,7 +32,7 @@ class App{
         InstrumentedSet<String> set = new InstrumentedSet<>(new HashSet<>());
         Set<Integer> items = new InstrumentedSet<>(new TreeSet<>());
 
-        set.addAll(List.of("A","B","C"));
+//        set.addAll(List.of("A","B","C"));
         System.out.println(set.getAddCount());
 
     }

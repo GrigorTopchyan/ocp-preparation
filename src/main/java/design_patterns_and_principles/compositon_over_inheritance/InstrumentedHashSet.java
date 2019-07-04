@@ -33,7 +33,7 @@ public class InstrumentedHashSet<E> extends HashSet<E> {
 class App1{
     public static void main(String[] args) {
        InstrumentedHashSet<String> set = new InstrumentedHashSet<>();
-       set.addAll(List.of("A","B","C"));
+//       set.addAll(List.of("A","B","C"));
         System.out.println(set.getAddCount());
     }
 }

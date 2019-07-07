@@ -1,4 +1,4 @@
-package path_class;
+package main.java.path_class;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

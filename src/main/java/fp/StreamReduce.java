@@ -1,4 +1,4 @@
-package fp;
+package main.java.fp;
 
 import java.util.function.BinaryOperator;
 import java.util.stream.Stream;

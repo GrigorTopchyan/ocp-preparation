@@ -1,4 +1,4 @@
-package fp;
+package main.java.fp;
 
 import java.util.*;
 import java.util.function.Function;

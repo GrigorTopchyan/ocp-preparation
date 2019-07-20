@@ -1,4 +1,4 @@
-package concurency.concurrent_collections;
+package concurrency.concurrent_collections;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

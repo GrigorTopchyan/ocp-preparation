@@ -1,4 +1,4 @@
-package concurency.scheduling_tasks;
+package concurrency.scheduling_tasks;
 
 import java.util.concurrent.*;
 

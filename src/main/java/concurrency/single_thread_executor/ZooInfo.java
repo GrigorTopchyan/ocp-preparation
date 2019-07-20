@@ -1,4 +1,4 @@
-package concurency.single_thread_executor;
+package concurrency.single_thread_executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

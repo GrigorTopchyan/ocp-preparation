@@ -1,7 +1,7 @@
 package concurrency.fork_join;
 
 
-//(31*(31*(31*(31*(x0)+x1) + x2) + x3) + x4) = 31 * 31 *(31*x0 + x1) + 31 *(31*x2+x3) + x4 = x0
+//(31*(31*(31*(31*(x0)+x1) + x2) + x3) + x4) = 31 * 31 *(31*x0 + x1) + 31 *(31*x2+x3) + x4
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

@@ -5,11 +5,17 @@ import java.util.ResourceBundle;
 
 public class Test {
     public static void main(String[] args) {
-        Locale locale = new Locale("fr");
-        ResourceBundle rb = ResourceBundle.getBundle("localization.SRBundel");
-    //    System.out.println(rb.getString("Hi"));
+        Locale localeFr = new Locale("fr");
+       // Locale.setDefault(localeFr);
 
-        Locale loc = Locale.forLanguageTag("ens_US");
-        System.out.println(loc);
+        Locale localeDe = new Locale("de");
+        Locale localeEn = new Locale("en");
+        ResourceBundle rb = ResourceBundle.getBundle("SRBundel",localeFr);
+
+
+        System.out.println(rb.getString("Hi"));
+        System.out.println(rb.getString("HE"));
+
+
     }
 }

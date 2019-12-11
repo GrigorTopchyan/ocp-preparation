@@ -5,6 +5,6 @@ import java.util.ListResourceBundle;
 public class SRBundel extends ListResourceBundle {
     @Override
     protected Object[][] getContents() {
-        return new Object[][]{{"Hi","EN"}};
+        return new Object[][]{{"Hi2","Default class"}};
     }
 }
